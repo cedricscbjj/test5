@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creer un compte</title>
+</head>
+<body>
+    <form action="/signup" method="POST" id="form">
+        <h2>on va signup les amis</h2>
+      
+        <label for="username">Username</label>
+        <input type="text" name="username">
+      
+        <label for="password">Password</label>
+        <input type="password" name="password">
+      
+          <div class="error-message">message d'erreur qui va s'afficher ici</div>
+       
+      
+        <button>Sign in</button>
+      
+        <p class="account-message">
+         si vous n'avez pas de compte veuillez en creer un <a href="/signup"> compte</a>
+        </p>
+      </form></body>
+</html>
